@@ -1,0 +1,25 @@
+.container {
+  flex: 1 0 auto;
+  padding: 15px 15px;
+
+  border-top: 2px solid var(--secondary-shade-light);
+  border-right: 25px solid var(--secondary-shade-light);
+  border-bottom: 20px solid var(--secondary-shade-light);
+  border-left: 25px solid var(--secondary-shade-light);
+}
+
+.wrapper {
+  position: relative;
+
+  border: 2px solid var(--secondary-shade-dark);
+  height: 100%;
+  border-radius: 5px;
+
+  background-color: #e8e8e8;
+  overflow: hidden;
+}
+
+.draggableTableWrapper {
+  position: absolute;
+}
+
